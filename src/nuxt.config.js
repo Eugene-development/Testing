@@ -1,6 +1,12 @@
 
 export default {
   mode: 'universal',
+
+  server: {
+    port: 3800,
+    host: '0.0.0.0' // default: localhost
+  },
+
   /*
   ** Headers of the page
   */
